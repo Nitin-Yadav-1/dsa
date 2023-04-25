@@ -11,3 +11,7 @@
 2. Longest Palindromic Subsequence
 3. Longest Common Substring
 4. Edit distance
+
+### MCM based
+1. Matrix Chain Multiplication
+2. Palindrome Partitioning
