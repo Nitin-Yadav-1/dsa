@@ -1,4 +1,13 @@
 
 
 # Dynamic Programming
-1. Edit distance
+### Knapsack based
+1. 0/1 Knapsack
+2. Subset Sum
+3. Equal Partiton
+
+### LCS based
+1. Longest Common Subsequence
+2. Longest Palindromic Subsequence
+3. Longest Common Substring
+4. Edit distance
