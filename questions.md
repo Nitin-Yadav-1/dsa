@@ -1,4 +1,9 @@
 
+# Number Theory
+1. Primality Test
+2. Sieve of Eratosthenes
+3. Prime Factorization
+4. Binary Exponentiation
 
 # Dynamic Programming
 ### Knapsack based
