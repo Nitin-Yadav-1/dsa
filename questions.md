@@ -4,6 +4,8 @@
 2. Sieve of Eratosthenes
 3. Prime Factorization
 4. Binary Exponentiation
+5. Prime Factorization through Sieve of Eratosthenes
+6. Matrix Exponentiation
 
 # Dynamic Programming
 ### Knapsack based
