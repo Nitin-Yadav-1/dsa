@@ -6,19 +6,9 @@
 4. Binary Exponentiation
 5. Prime Factorization through Sieve of Eratosthenes
 6. Matrix Exponentiation
+7. n-th element of a linear recurrence relation
 
-# Dynamic Programming
-### Knapsack based
-1. 0/1 Knapsack
-2. Subset Sum
-3. Equal Partiton
-
-### LCS based
-1. Longest Common Subsequence
-2. Longest Palindromic Subsequence
-3. Longest Common Substring
-4. Edit distance
-
-### MCM based
-1. Matrix Chain Multiplication
-2. Palindrome Partitioning
+# Algorithms
+1. Merge Sort
+2. Kadane's Algo
+3. Rotate Array by k steps
