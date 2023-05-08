@@ -13,3 +13,6 @@
 2. Kadane's Algo
 3. Rotate Array by k steps
 4. Next Permutation
+
+# Dynamic Programming
+1. Longest Increasing Subsequence
