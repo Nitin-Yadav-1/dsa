@@ -7,7 +7,7 @@
 # 		*
 # 	 10^2   10^1  10^0
 
-# move a peak to left and sort the remaining part will not always
+# move a peak to left and sort the remaining part will always
 # result in next greater number
 
 # from peak to end the sequence is in non-increasing order,

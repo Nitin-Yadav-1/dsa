@@ -12,3 +12,4 @@
 1. Merge Sort
 2. Kadane's Algo
 3. Rotate Array by k steps
+4. Next Permutation
