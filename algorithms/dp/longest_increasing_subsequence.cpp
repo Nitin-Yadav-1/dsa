@@ -47,13 +47,33 @@ void restore_lis(vector<int>& nums){
 	cout << endl;
 }
 
+int lis_nlogn( vector<int>& nums ){
+	if( nums.size() <= 1 )
+		return nums.size();
+
+	vector<int> dp;
+	dp.push_back(nums[0]);
+
+	for( int i = 1; i < nums.size(); i++ ){
+		auto pos = lower_bound(dp.begin(), dp.end(), nums[i]);
+		if( pos == dp.end() )
+			dp.push_back(nums[i]);
+		else
+			dp[pos-dp.begin()] = nums[i];
+	}
+
+	return dp.size();
+}
 
 int main(){
 
-	vector<int> nums = {1,2,4,3};
+	vector<int> nums = {1,7,8,4,5,5,6,-1,9};
 
-	cout << lis(nums) << endl;
+	cout << "lis(n^2) : " << lis(nums) << endl;
 	restore_lis(nums);
+
+	cout << "lis(nlogn) : " << lis_nlogn(nums) << endl;
+
 
 	return 0;
 }
